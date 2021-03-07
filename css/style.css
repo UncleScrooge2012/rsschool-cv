@@ -20,6 +20,14 @@ body {
 
 a {
     text-decoration: none;
+
+
+    color: #000
+}
+
+
+a:hover {
+    color: blue;
 }
 
 
@@ -77,3 +85,19 @@ ul {
 }
 
 
+.footer {
+    padding: 45px 0 ;
+
+}
+
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner-rs {
+    min-width: 108px;
+    
+}
