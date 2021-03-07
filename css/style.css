@@ -26,9 +26,6 @@ a {
 ul {
     margin: 0;
     padding: 0;
-
-
-    list-style: none;
 }
 
 
@@ -36,7 +33,7 @@ ul {
     padding: 0 20px;
     margin: 0 auto;
     
-    
+
     max-width: 1240px;
 }
 
@@ -68,8 +65,10 @@ ul {
 }
 
 
-.header__inner-titel {
+.titel {
     text-align: center;
+    font-size: 20px;
+    line-height: 38px;
 }
 
 
@@ -78,3 +77,4 @@ ul {
 }
 
 
+.skils__titel
