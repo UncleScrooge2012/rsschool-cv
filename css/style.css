@@ -1,0 +1,56 @@
+  
+html {
+    box-sizing: border-box;   
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit    
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    
+    
+    max-width: 1240px;
+}
+
+ 
+.header__titel {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__inner-info {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.header__inner-info span {
+    display: block;
+
+
+    font-size: 14px;
+}
+
+
+    
