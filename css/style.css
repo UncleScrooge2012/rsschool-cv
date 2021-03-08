@@ -1,0 +1,103 @@
+  
+html {
+    box-sizing: border-box;   
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit    
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+a {
+    text-decoration: none;
+
+
+    color: #000
+}
+
+
+a:hover {
+    color: blue;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    
+
+    max-width: 1240px;
+}
+
+ 
+.header__titel {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__inner-info {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.header__inner-info span {
+    display: block;
+
+
+    font-size: 14px;
+}
+
+
+.titel {
+    text-align: center;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+
+.about-me__text {
+    max-width: 600px;
+}
+
+
+.footer {
+    padding: 45px 0 ;
+
+}
+
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner-rs {
+    min-width: 108px;
+    
+}
